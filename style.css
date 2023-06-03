@@ -1,0 +1,40 @@
+*{
+
+    margin: 0;
+    padding: 0;
+}
+
+
+.fundo
+    {
+    
+    background-color:#F5ECD7;
+    height: 100vh;
+    
+    }
+
+.container{
+    background-color: #c2baa6;
+    height: 50;
+    width: 50;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    
+
+}    
+
+.item {
+    font: center;
+    background-color:#24613b;
+    padding: auto ;
+    height: auto ;
+    font-size: 30px ;
+}
+
+.logo{
+
+    
+}

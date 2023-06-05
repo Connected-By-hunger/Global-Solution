@@ -3,6 +3,19 @@
   background-color: #D0EFE9;
 }
 
+.bg-green-destaque {
+  background-color: #009C77;
+}
+
+.line-green {
+  background-color: #009C77;
+  height: 2px;
+  width: 100%;
+}
+.small-image {
+  width: 65px; 
+  height: auto; 
+} 
 .font-light {
   font-family: 'Montserrat', sans-serif;
   font-weight: 300;

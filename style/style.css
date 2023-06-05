@@ -1,0 +1,35 @@
+
+.bg-green {
+  background-color: #D0EFE9;
+}
+
+.font-light {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+}
+
+.font-regular {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+}
+
+.font-medium {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+}
+
+.font-semibold {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+}
+
+.font-bold {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+}
+
+.font-extra-bold {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 800;
+}
+

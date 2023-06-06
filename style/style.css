@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300&display=swap');
 .bg-green {
   background-color: #D0EFE9;
 }
@@ -46,3 +46,19 @@
   font-weight: 800;
 }
 
+.metas-ods {
+  color: #007A5D;
+  font-weight: bold;
+  padding-bottom: 25px;
+}
+
+.paragrafos-ods {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.ods {
+  margin:80px;
+  font-size: 18px;
+  text-align: center;
+}

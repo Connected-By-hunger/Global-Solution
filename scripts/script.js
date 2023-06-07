@@ -7,4 +7,3 @@ var carousel = new bootstrap.Carousel(myCarousel, {
 
 
 
-

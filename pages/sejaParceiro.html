@@ -114,31 +114,31 @@
     <div class="container mb-5">
       <p class="font-bold text-success text-center h2 mt-5 mb-4">FAÇA SEU CADASTRO</p>
       <div class="line-green container mb-5"></div>
-      <form>
+      <form id="formularioSolicitacao">
         <div class="mb-3">
-          <label for="exampleInputPassword1" class="form-label">Nome da empresa ou organização</label>
+          <label for="nome" class="form-label">Nome da empresa ou organização</label>
           <input type="text" class="form-control" id="NomeInstituicao">
         </div>
         <div class="mb-3">
-          <label for="exampleInputEmail1" class="form-label">Email</label>
+          <label for="email" class="form-label">Email</label>
           <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
         </div>
         <div class="mb-3">
-          <label for="exampleInputEmail1" class="form-label">Telefone</label>
+          <label for="telefone" class="form-label">Telefone</label>
           <input type="tel" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
         </div>
         <div class="mb-3">
-          <label for="exampleInputPassword1" class="form-label">Endereço</label>
+          <label for="endereco" class="form-label">Endereço</label>
           <input type="text" class="form-control" id="Endereco">
         </div>
-        <label for="exampleInputPassword1" class="form-label">Tipo de parceria</label>
+        <label for="parceria" class="form-label">Tipo de parceria</label>
         <select class="form-select mb-3" aria-label="Default select example">
           <option selected>Selecione o tipo de parceria</option>
           <option value="1">Quero ajudar financeiramente</option>
-          <option value="2">Quero ser um fornecedor de alimentos </option>
+          <option value="2">Quero ser um fornecedor de alimentos</option>
           <option value="3">Quero receber alimentos para ampliar os serviços da minha ONG</option>
         </select>
-        <button type="submit" class="btn btn-primary">Enviar</button>
+        <button type="submit" class="btn btn-primary" disabled>Enviar</button>
       </form>
     </div>
   </main>

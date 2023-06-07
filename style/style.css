@@ -11,6 +11,11 @@
   height: 2px;
   width: 100%;
 }
+
+.title {
+  font-size: 5rem;
+}
+
 .small-image {
   width: 65px; 
   height: auto; 

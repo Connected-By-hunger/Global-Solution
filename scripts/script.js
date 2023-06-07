@@ -5,5 +5,3 @@ var carousel = new bootstrap.Carousel(myCarousel, {
   wrap: true // O carrossel continua a rodar indefinidamente
 })
 
-
-

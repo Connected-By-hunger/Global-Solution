@@ -43,21 +43,27 @@
     </div>
   </header>
       
-  <main>
-
-    <div class="divteste">
-      <h1 class="h1teste">Sua jornada com a gente <br>e com nossos parceiros!</h1>
+  <main class="fs-4">
+    <div class=" text-center">
+      <div class="z-00 w-100">
+        <img class=" img-fluid w-100 " src="/images/parceiros/partner.png" alt="Pessoas apertantando a mão">
+      </div>
+      <div class="container-fluid z-1 text-center position-absolute top-50 start-50 translate-middle">
+        <div class="row">
+          <div class="col-2"></div>
+            <div class="col-8 ">
+              <p class="title text-white mt-5 mb-2 font-bold">SEJA UM PARCEIRO </p>
+              <p class=" h2 text-white font-bold">INICIE SUA JORNADA COM A GENTE</p>
+              <p class=" h2 text-white font-bold">JUNTOS CONTRA A FOME</p>
+              <p class="invisible my-5">espaco</p>
+            </div>
+          <div class="col-2"></div>
+        </div>
+      </div>
     </div>
-
-    <div class="card">
-      <p class="text-card">A CBH conta com diversos parceiros e sócios para manter todo o projeto funcional e operante
-      </p>
-      <!-- <img class="img-card" src="../images/Parceiros/image 21.png" alt=""> -->
-      <p class="text-card">Se inscreva também para participar nesta jornada contra a fome!</p>
-    </div>
-
-    <section class="slider">
-
+    <div>
+      <p class="font-bold text-success text-center h2 mt-5 mb-4">EMPRESAS JÁ PARCEIRAS</p>
+      <div class="line-green container mb-5"></div>
       <div class="slider">
         <div class="slide-track">
           <div class="slide">
@@ -104,31 +110,37 @@
           </div>      
         </div>
       </div>
-    </section>
-
-
-    <div class="forms">
-      <div class="forms-empresa">
-        <p>ONG</p>
-        <input class="input-forms" type="text" placeholder="Email *">
-        <input class="input-forms" type="text" placeholder="Nome da instituição *">
-        <input class="input-forms" type="text" placeholder="Endereço *">
-        <input class="input-forms" type="text" placeholder="Local de atuação *">
-        <input class="input-forms" type="text" placeholder="Link *">
-        <a href="#" class="myButton-forms">Enviar</a>
-      </div>
-
-      <div class="forms-ong">
-        <p>Empresa</p>
-        <input class="input-forms" type="text" placeholder="Email *">
-        <input class="input-forms" type="text" placeholder="Nome da empresa *">
-        <input class="input-forms" type="number" placeholder="CNPJ *">
-        <a href="#" class="myButton-forms">Enviar</a>
-      </div>
     </div>
-
+    <div class="container mb-5">
+      <p class="font-bold text-success text-center h2 mt-5 mb-4">FAÇA SEU CADASTRO</p>
+      <div class="line-green container mb-5"></div>
+      <form>
+        <div class="mb-3">
+          <label for="exampleInputPassword1" class="form-label">Nome da empresa ou organização</label>
+          <input type="text" class="form-control" id="NomeInstituicao">
+        </div>
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label">Email</label>
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+        </div>
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label">Telefone</label>
+          <input type="tel" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+        </div>
+        <div class="mb-3">
+          <label for="exampleInputPassword1" class="form-label">Endereço</label>
+          <input type="text" class="form-control" id="Endereco">
+        </div>
+        <label for="exampleInputPassword1" class="form-label">Tipo de parceria</label>
+        <select class="form-select mb-3" aria-label="Default select example">
+          <option selected>Selecione o tipo de parceria</option>
+          <option value="1">Quero ajudar financeiramente</option>
+          <option value="2">Quero ser um fornecedor de alimentos </option>
+          <option value="3">Quero receber alimentos para ampliar os serviços da minha ONG</option>
+        </select>
+        <button type="submit" class="btn btn-primary">Enviar</button>
+      </form>
     </div>
-
   </main>
 
   <footer>

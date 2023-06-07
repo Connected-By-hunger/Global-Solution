@@ -1,5 +1,5 @@
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
 
+alt="Gráfico sobre fome"
 const myModal = document.getElementById('myModal')
 const myInput = document.getElementById('myInput')
 
@@ -7,3 +7,8 @@ myModal.addEventListener('shown.bs.modal', () => {
   myInput.focus()
 })
 
+var myCarousel = document.getElementById('carouselExampleDark')
+var carousel = new bootstrap.Carousel(myCarousel, {
+  interval: 2000, // Tempo em milissegundos entre cada slide
+  wrap: true // O carrossel continua a rodar indefinidamente
+})
